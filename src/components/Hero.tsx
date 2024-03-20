@@ -11,14 +11,14 @@ export default function Hero() {
   });
   const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0]);
   return (
-    <section className=" bg-background text-white h-[300vh] relative">
+    <section className=" bg-background text-white h-dvh  relative">
       <motion.div
         style={{ opacity }}
         ref={imgContainerRef}
         className="absolute top-0 left-0 w-full h-[200vh]"
       >
         <img
-          src="/images/napoleon.webp"
+          src="/images/laboratory.webp"
           alt="hero image"
           className="sticky top-0 h-screen object-cover w-full"
         />

@@ -1,7 +1,7 @@
-import Container from "../components/Container";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import USPS from "../components/USPS";
+import VideoCarousel from "../components/VideoCarousel";
 import "../globals.css";
 
 export default function App() {
@@ -9,14 +9,11 @@ export default function App() {
     <>
       <Header />
       <main>
-        <Hero />
-        <USPS />
-        <section>
-          <Container>3 col pricing</Container>
-        </section>
-        <section>
-          <Container>carousel with posters</Container>
-        </section>
+        <div className=" bg-background relative z-10">
+          <Hero />
+          <USPS />
+        </div>
+        <VideoCarousel />
       </main>
     </>
   );

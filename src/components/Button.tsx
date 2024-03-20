@@ -15,7 +15,7 @@ export default function Button({
   };
   return (
     <button
-      className={`text-textBlack rounded-full bg-white  ${sizeClassNames[size]} ${className}`}
+      className={`text-textBlack rounded-full bg-white hover:bg-opacity-80 duration-500  ${sizeClassNames[size]} ${className}`}
     >
       {children}
     </button>

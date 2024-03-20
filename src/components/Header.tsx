@@ -41,9 +41,7 @@ export default function Header() {
       <header className="sticky top-0 bg-backgroundContrast z-20 text-white">
         <Container className="flex items-center justify-between py-3 min-h-11 ">
           <h1 className="text-xl font-semibold">Apple TV+</h1>
-          <Button size="sm" className="hover:bg-opacity-80 duration-500">
-            Stream now
-          </Button>
+          <Button size="sm">Stream now</Button>
         </Container>
       </header>
     </>

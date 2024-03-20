@@ -13,6 +13,16 @@ export default {
       textBlack: "#1d1d1f",
       white: "#fff",
     },
+    keyframes: {
+      "carousel-move": {
+        "0%": { transform: "translateX(0)" },
+        "100%": { transform: "translateX(-100%)" },
+      },
+    },
+    animation: {
+      "carousel-move1": "carousel-move var(--duration,30s) infinite",
+      "carousel-move2": "carousel-move var(--duration,50s) infinite",
+    },
     extend: {},
   },
   plugins: [],
